@@ -8,7 +8,8 @@
     'app.dashboard',
     'app.layout',
     'app.nvD3',
-    'app.chartJSSample'
+    'app.chartJSSample',
+    'app.highchart'
   ]);
 
 })();
