@@ -19,11 +19,13 @@
     function getSomeAwesomeData() {
       var data = [{
         type: 'lineChart',
-        yaxis: 'Grad-Celsius',
-        xaxis: 'Temperaturveränderung',
-        title: 'Temperaturveränderung Weltweit seit 1980',
-        labels: ['1980','1981','1982'],
-        values: [23,22,23]
+        yaxis: 'Durschnittsalter',
+        xaxis: 'Jahr',
+        title: 'Durschnittsalter Deutschland',
+        labels: ['1950','1955','1960','1965','1970','1975','1980',
+        '1985','1990','1995','2000','2005','2010','2015','2016'],
+        values: [34.9,34,34.2,33.8,33.8,35.1,
+        36.2,36.5,37.1,38,39.1,41.8,44.1,45.6,45.8]
       }];
       return data;
     }
