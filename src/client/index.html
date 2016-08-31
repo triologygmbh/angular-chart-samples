@@ -22,6 +22,7 @@
   <!-- bower:css -->
   <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
   <link rel="stylesheet" href="/bower_components/toastr/toastr.css" />
+  <link rel="stylesheet" href="/bower_components/nvd3/build/nv.d3.css" />
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -59,6 +60,11 @@
   <script src="/bower_components/toastr/toastr.js"></script>
   <script src="/bower_components/angular-animate/angular-animate.js"></script>
   <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="/bower_components/d3/d3.js"></script>
+  <script src="/bower_components/nvd3/build/nv.d3.js"></script>
+  <script src="/bower_components/angular-nvd3/dist/angular-nvd3.js"></script>
+  <script src="/bower_components/chart.js/src/chart.js"></script>
+  <script src="/bower_components/angular-chart.js/dist/angular-chart.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -69,9 +75,11 @@
   <script src="/src/client/app/blocks/exception/exception.module.js"></script>
   <script src="/src/client/app/blocks/logger/logger.module.js"></script>
   <script src="/src/client/app/blocks/router/router.module.js"></script>
+  <script src="/src/client/app/chartJS/chartJS.module.js"></script>
   <script src="/src/client/app/core/core.module.js"></script>
   <script src="/src/client/app/dashboard/dashboard.module.js"></script>
   <script src="/src/client/app/layout/layout.module.js"></script>
+  <script src="/src/client/app/nvD3/nvD3.module.js"></script>
   <script src="/src/client/app/widgets/widgets.module.js"></script>
   <script src="/src/client/app/admin/admin.controller.js"></script>
   <script src="/src/client/app/admin/admin.route.js"></script>
@@ -79,6 +87,8 @@
   <script src="/src/client/app/blocks/exception/exception.js"></script>
   <script src="/src/client/app/blocks/logger/logger.js"></script>
   <script src="/src/client/app/blocks/router/router-helper.provider.js"></script>
+  <script src="/src/client/app/chartJS/chartJS.route.js"></script>
+  <script src="/src/client/app/chartJS/sampleChartController.js"></script>
   <script src="/src/client/app/core/config.js"></script>
   <script src="/src/client/app/core/constants.js"></script>
   <script src="/src/client/app/core/core.route.js"></script>
@@ -89,6 +99,8 @@
   <script src="/src/client/app/layout/ht-top-nav.directive.js"></script>
   <script src="/src/client/app/layout/shell.controller.js"></script>
   <script src="/src/client/app/layout/sidebar.controller.js"></script>
+  <script src="/src/client/app/nvD3/nvD3.route.js"></script>
+  <script src="/src/client/app/nvD3/sampleChartController.js"></script>
   <script src="/src/client/app/widgets/ht-img-person.directive.js"></script>
   <script src="/src/client/app/widgets/ht-widget-header.directive.js"></script>
   <!-- endinject -->
