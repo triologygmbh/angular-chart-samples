@@ -14,7 +14,7 @@
         vm.options = {
             chart: {
                 type: 'discreteBarChart',
-                height: 450,
+                height: 600,
                 margin: {
                     top: 20,
                     right: 20,

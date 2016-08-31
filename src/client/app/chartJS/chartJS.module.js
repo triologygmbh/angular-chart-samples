@@ -1,8 +1,10 @@
 (function() {
   'use strict';
 
-  angular.module('app.chartJS', [
+  angular.module('app.chartJSSample', [
     'app.core',
-    'app.widgets'
+    'app.widgets',
+    'chart.js'
+  
   ]);
 })();

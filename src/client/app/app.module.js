@@ -7,7 +7,8 @@
     'app.admin',
     'app.dashboard',
     'app.layout',
-    'app.nvD3'
+    'app.nvD3',
+    'app.chartJSSample'
   ]);
 
 })();

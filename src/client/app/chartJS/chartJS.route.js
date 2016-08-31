@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('app.chartJS')
+    .module('app.chartJSSample')
     .run(appRun);
 
   appRun.$inject = ['routerHelper'];
@@ -17,7 +17,7 @@
         state: 'chartJS',
         config: {
           url: '/chartJS',
-          templateUrl: 'app/chartJS/chartJSSample.html',
+          templateUrl: 'app/chartJS/sampleChart.html',
           controller: 'chartJSSample',
           controllerAs: 'vm',
           title: 'chartJS',
