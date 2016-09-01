@@ -18,7 +18,7 @@
         config: {
           url: '/highchart',
           templateUrl: 'app/highchart/sampleChart.html',
-          controller: 'highchartSampleController',
+          controller: 'HighchartSampleController',
           controllerAs: 'vm',
           title: 'highchart',
           settings: {

@@ -3,11 +3,11 @@
 
     angular
         .module('app.highchart')
-        .controller('highchartSampleController', highchartSampleController);
+        .controller('HighchartSampleController', HighchartSampleController);
 
-    highchartSampleController.$inject = ['dataservice'];
+    HighchartSampleController.$inject = ['dataservice'];
     /* @ngInject */
-    function highchartSampleController(dataservice) {
+    function HighchartSampleController(dataservice) {
         var vm = this;
         vm.title = 'Highchart Sample';
         var chartData = dataservice.getSomeAwesomeData();
