@@ -7,7 +7,7 @@
 
     SampleChartController.$inject = ['dataservice', 'logger'];
     /* @ngInject */
-    function SampleChartController(dataservice, logger) {
+    function SampleChartController($scope, dataservice, logger) {
         var vm = this;
         vm.title = 'NvD3-Sample';
         var data = dataservice.getSomeAwesomeData();
