@@ -3,11 +3,11 @@
 
     angular
         .module('app.nvD3')
-        .controller('sampleChartController', sampleChartController);
+        .controller('SampleChartController', SampleChartController);
 
-    sampleChartController.$inject = ['dataservice', 'logger'];
+    SampleChartController.$inject = ['dataservice', 'logger'];
     /* @ngInject */
-    function sampleChartController(dataservice, logger) {
+    function SampleChartController(dataservice, logger) {
         var vm = this;
         vm.title = 'NvD3-Sample';
         var data = dataservice.getSomeAwesomeData();

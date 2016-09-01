@@ -18,7 +18,7 @@
         config: {
           url: '/nvD3Chart',
           templateUrl: 'app/nvD3/sampleChart.html',
-          controller: 'sampleChartController',
+          controller: 'SampleChartController',
           controllerAs: 'vm',
           title: 'nvD3',
           settings: {

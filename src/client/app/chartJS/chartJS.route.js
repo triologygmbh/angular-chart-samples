@@ -18,7 +18,7 @@
         config: {
           url: '/chartJS',
           templateUrl: 'app/chartJS/sampleChart.html',
-          controller: 'chartJSSample',
+          controller: 'ChartJSSampleController',
           controllerAs: 'vm',
           title: 'chartJS',
           settings: {
