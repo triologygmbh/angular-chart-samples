@@ -11,7 +11,6 @@
         var vm = this;
         vm.title = 'Highchart Sample';
         var chartData = dataservice.getSomeAwesomeData();
-        // code needed to display the sample chart
         vm.chartOptions = {
                     title: {
                         text: chartData[0].title
