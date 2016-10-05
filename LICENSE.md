@@ -1,32 +1,3 @@
-# angular-chart-samples
-
-Demonstrates the use of different angular-charting-directives.
-
-**Angular-nvD3:** https://krispo.github.io/angular-nvd3/#/
-
-**Angular-ChartJs:** https://jtblin.github.io/angular-chart.js/
-
-**Highcharts-ng:** https://github.com/pablojim/highcharts-ng
-
-
-## Build from source
-
-Install depencies:
-```bash
-npm install
-bower install
-```
-Start the sample:
-```bash
-gulp serve-dev
-```
-
-## Generated with the help of HotTowel
-
-More details about the styles and patterns used in this app can be found in the [Angular Style Guide](https://github.com/johnpapa/angularjs-styleguide) written by [john_papa](//twitter.com/john_papa)
-
-## License
-
 The MIT License (MIT)
 
 Copyright (c) 2016 TRIOLOGY GmbH
