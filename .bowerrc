@@ -2,6 +2,5 @@
   "directory": "bower_components",
 	"scripts": {
 		"postinstall": "gulp wiredep"
-	},
-	"resolvers":["bower-npm-resolver"]
+	}
 }
