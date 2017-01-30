@@ -2,6 +2,8 @@
 
 Demonstrates the use of different angular-charting-directives.
 
+Read the tutorial here: [Charts in AngularJS](https://www.triology.de/en/blog-entries/charts-in-angularjs).
+
 **Angular-nvD3:** https://krispo.github.io/angular-nvd3/#/
 
 **Angular-ChartJs:** https://jtblin.github.io/angular-chart.js/
